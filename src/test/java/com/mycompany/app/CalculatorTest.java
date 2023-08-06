@@ -27,5 +27,14 @@ public class CalculatorTest
 		assertEquals(exp, act);
 	}
 	
+	@Test
+	public void testSubtract() 
+	{
+		int exp = 20;
+		Calculator cal = new Calculator();
+		int act=cal.subtract(30,10);
+		assertEquals(exp, act);
+	}
+	
 
 }
