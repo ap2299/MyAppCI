@@ -36,5 +36,14 @@ public class CalculatorTest
 		assertEquals(exp, act);
 	}
 	
+	@Test
+	public void testDivide() 
+	{
+		int exp = 5;
+		Calculator cal = new Calculator();
+		int act=cal.divide(10,2);
+		assertEquals(exp, act);
+	}
+	
 
 }
